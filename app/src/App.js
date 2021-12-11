@@ -4,7 +4,7 @@ import twitterLogo from './assets/twitter-logo.svg';
 import CandyMachine from './CandyMachine';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'MickeyDegods';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -65,19 +65,20 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <p className="header">🍟  Mickey DeGods - Dessert 🍦</p>
-          <p className="sub-text">Fair mint test site with Metaplex and Candy Machine</p>
+          <p className="sub-text">From deep within the walk-in freezer, <br></br>
+          long forgotten in dark, icy corners,<br></br>
+          lies a secret menu item waiting to be rediscovered.</p>
           { !walletAddress && renderNotConnectedContainer() }
         </div>
         {/* Check for wallet address and then pass it to CandyMachine */}
         { walletAddress && <CandyMachine walletAddress={window.solana} /> }
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
             className="footer-text"
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >🍟 &nbsp;{`Built by the @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
