@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import twitterLogo from './assets/twitter-logo.svg';
 import CandyMachine from './CandyMachine';
+import MickeyLogo from './mickey_logo.PNG';
 
 // Constants
 const TWITTER_HANDLE = 'MickeyDegods';
@@ -64,7 +64,10 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍟  Mickey DeGods - Dessert 🍦</p>
+          <div>
+            <img src={MickeyLogo} width='150px'/>
+          </div>
+          <p className="header">🍦  Mickey DeGods - Secret Dessert 🍦</p>
           <p className="sub-text">From deep within the walk-in freezer, <br></br>
           long forgotten in dark, icy corners,<br></br>
           lies a secret menu item waiting to be rediscovered.</p>

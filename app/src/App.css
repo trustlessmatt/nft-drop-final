@@ -19,7 +19,7 @@
   background-image: url(Stocked-Walk-In-Cooler.jpg);
   background-size: cover;
   background-color: #35aee2;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 5px 5px 10px black;
 }
 
 .authed-container {
@@ -42,7 +42,7 @@
 
 .sub-text {
   font-size: 25px;
-  text-shadow: 3px 3px 2px black;
+  text-shadow: 3px 3px 3px black;
 }
 
 .gradient-text {
