@@ -430,7 +430,7 @@ const CandyMachine = ({ walletAddress }) => {
             { renderDropTimer() }
             <br></br>
             { renderMintButton() }
-            { isMinting && (<div><p>MINT IN PROGRESS</p></div> /* { LoadingIndicator }} */ ) }
+            { isMinting && ( <div>{ LoadingIndicator() }</div> ) }
           </div>
         }
       </div>
