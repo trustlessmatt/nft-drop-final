@@ -34,13 +34,11 @@
 
 .header {
   margin: 0;
-  font-size: 50px;
   font-weight: bold;
   letter-spacing: .5px;
 }
 
 .sub-text {
-  font-size: 25px;
   text-shadow: 3px 3px 3px black;
 }
 
@@ -49,6 +47,10 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+img {
+  width: 200px;
 }
 
 .cta-button {
@@ -114,6 +116,29 @@
 
 .connected-container button {
   height: 50px;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .header {
+    font-size: 55px;
+  }
+  .sub-text {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 28px;
+  }
+  .sub-text {
+    font-size: 18px;
+  }
+  img {
+    width: 125px;
+  }
 }
 
 /* KeyFrames */

@@ -65,12 +65,12 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <div>
-            <img src={MickeyLogo} width='150px'/>
+            <img src={MickeyLogo} />
           </div>
           <p className="header">🍦  Mickey DeGods - Secret Dessert 🍦</p>
           <p className="sub-text">From deep within the walk-in freezer, <br></br>
           long forgotten in dark, icy corners,<br></br>
-          lies a secret menu item waiting to be rediscovered.</p>
+          lies a secret menu item waiting to be rediscovered.<br></br></p>
           { !walletAddress && renderNotConnectedContainer() }
         </div>
         {/* Check for wallet address and then pass it to CandyMachine */}
