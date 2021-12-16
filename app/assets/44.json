@@ -25,16 +25,16 @@
     "seller_fee_basis_points": 700,
     "attributes": [
         {
-            "trait_type": "Topping",
-            "value": "Chocolate Sprinkles"
-        },
-        {
             "trait_type": "Flavor",
             "value": "Strawberry"
         },
         {
+            "trait_type": "Topping",
+            "value": "MDegod Sugar Pills"
+        },
+        {
             "trait_type": "Cone",
-            "value": "Sugar"
+            "value": "Waffle"
         }
     ],
     "collection": {

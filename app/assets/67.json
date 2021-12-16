@@ -26,15 +26,15 @@
     "attributes": [
         {
             "trait_type": "Flavor",
-            "value": "Fruit Punch"
-        },
-        {
-            "trait_type": "Topping",
-            "value": "GOAT"
+            "value": "Vanilla"
         },
         {
             "trait_type": "Cone",
-            "value": "Cookie"
+            "value": "Sugar"
+        },
+        {
+            "trait_type": "Topping",
+            "value": "Rainbow Sprinkles"
         }
     ],
     "collection": {

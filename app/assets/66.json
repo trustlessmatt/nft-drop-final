@@ -25,16 +25,16 @@
     "seller_fee_basis_points": 700,
     "attributes": [
         {
+            "trait_type": "Cone",
+            "value": "Waffle"
+        },
+        {
             "trait_type": "Flavor",
-            "value": "Vanilla"
+            "value": "Fruit Punch"
         },
         {
             "trait_type": "Topping",
-            "value": "Sickle"
-        },
-        {
-            "trait_type": "Cone",
-            "value": "Sugar"
+            "value": "Gummies"
         }
     ],
     "collection": {

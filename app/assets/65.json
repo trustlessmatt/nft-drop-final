@@ -25,16 +25,16 @@
     "seller_fee_basis_points": 700,
     "attributes": [
         {
-            "trait_type": "Flavor",
-            "value": "Chocolate"
-        },
-        {
             "trait_type": "Topping",
-            "value": "Hair"
+            "value": "Chocolate Sprinkles"
         },
         {
             "trait_type": "Cone",
-            "value": "Sugar"
+            "value": "Cookie"
+        },
+        {
+            "trait_type": "Flavor",
+            "value": "Strawberry"
         }
     ],
     "collection": {

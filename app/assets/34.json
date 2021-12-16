@@ -25,16 +25,16 @@
     "seller_fee_basis_points": 700,
     "attributes": [
         {
-            "trait_type": "Cone",
-            "value": "Sugar"
-        },
-        {
             "trait_type": "Flavor",
             "value": "Chocolate"
         },
         {
             "trait_type": "Topping",
-            "value": "Chocolate Sprinkles"
+            "value": "World Champs Cherry Glove"
+        },
+        {
+            "trait_type": "Cone",
+            "value": "Gold"
         }
     ],
     "collection": {

@@ -25,16 +25,16 @@
     "seller_fee_basis_points": 700,
     "attributes": [
         {
-            "trait_type": "Cone",
-            "value": "Waffle"
-        },
-        {
             "trait_type": "Flavor",
-            "value": "Fruit Punch"
+            "value": "Vanilla"
         },
         {
             "trait_type": "Topping",
-            "value": "Gummies"
+            "value": "USSdR Sour Sickle"
+        },
+        {
+            "trait_type": "Cone",
+            "value": "Sugar"
         }
     ],
     "collection": {

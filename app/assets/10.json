@@ -26,15 +26,15 @@
     "attributes": [
         {
             "trait_type": "Flavor",
-            "value": "Vanilla"
-        },
-        {
-            "trait_type": "Cone",
-            "value": "Sugar"
+            "value": "Fruit Punch"
         },
         {
             "trait_type": "Topping",
-            "value": "Rainbow Sprinkles"
+            "value": "DeGOAT Marshmallows"
+        },
+        {
+            "trait_type": "Cone",
+            "value": "Cookie"
         }
     ],
     "collection": {
