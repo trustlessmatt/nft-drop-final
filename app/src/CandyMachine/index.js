@@ -4,7 +4,7 @@ import { Program, Provider, web3 } from '@project-serum/anchor';
 import { MintLayout, TOKEN_PROGRAM_ID, Token } from '@solana/spl-token';
 import { programs } from '@metaplex/js';
 import CountdownTimer from '../CountdownTimer';
-import LoadingIndicator from '../LoadingIndicator';
+import LoadingIndicator from './LoadingIndicator';
 import './CandyMachine.css';
 import {
   candyMachineProgram,
@@ -34,7 +34,7 @@ const CandyMachine = ({ walletAddress }) => {
   const [mints, setMints] = useState([]);
   // state properties (loading, minting)
   const [isMinting, setIsMinting] = useState(false);
-  const [isLoadingMints, setIsLoadingMints] = useState(false);
+  // const [isLoadingMints, setIsLoadingMints] = useState(false);
   
   // Actions
 
@@ -334,7 +334,7 @@ const CandyMachine = ({ walletAddress }) => {
       goLiveDateTimeString,
     });
 
-    setIsLoadingMints(true);
+    // setIsLoadingMints(true);
 
     const data = await fetchHashTable(
       process.env.REACT_APP_CANDY_MACHINE_ID,
@@ -347,25 +347,17 @@ const CandyMachine = ({ walletAddress }) => {
         // get URI
         const response = await fetch(mint.data.uri);
         const parse = await response.json();
-        console.log("Past minted NFTs", parse);
+        // console.log("Past minted NFTs", parse);
 
         // get image URI
         if (!mints.find((mint) => mint === parse.image)) {
           // destructure previous mint state and append new image
           setMints((prevState) => [...prevState, parse.image]);
         }
-
-        // // get minted NFT name
-        // if (!mints.find((mint) => mint === parse.name)) {
-        //   // destructure previous mint state and append new image
-        //   setMints((prevState) => [...prevState, parse.image]);
-        // }
-
-
       }
     }
 
-    setIsLoadingMints(false);
+    // setIsLoadingMints(false);
 
   };
 
@@ -438,7 +430,7 @@ const CandyMachine = ({ walletAddress }) => {
             { renderDropTimer() }
             <br></br>
             { renderMintButton() }
-            {/* isMinting && { LoadingIndicator } */}
+            { isMinting && (<div><p>MINT IN PROGRESS</p></div> /* { LoadingIndicator }} */ ) }
           </div>
         }
       </div>
