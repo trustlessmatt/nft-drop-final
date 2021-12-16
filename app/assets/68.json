@@ -1,11 +1,11 @@
 {
-    "name": "Secret Ice Cream #4",
+    "name": "Secret Ice Cream #69",
     "symbol": "ISCREAM",
-    "image": "3.png",
+    "image": "68.png",
     "properties": {
         "files": [
             {
-                "uri": "3.png",
+                "uri": "68.png",
                 "type": "image/png"
             }
         ],
@@ -25,16 +25,16 @@
     "seller_fee_basis_points": 700,
     "attributes": [
         {
-            "trait_type": "Cone",
-            "value": "Sugar"
+            "trait_type": "Flavor",
+            "value": "Chocolate"
         },
         {
             "trait_type": "Topping",
-            "value": "Rainbow Sprinkles"
+            "value": "Boxing Glove"
         },
         {
-            "trait_type": "Flavor",
-            "value": "Strawberry"
+            "trait_type": "Cone",
+            "value": "Gold"
         }
     ],
     "collection": {

@@ -1,1 +1,44 @@
-{"name":"Secret Ice Cream #53","symbol":"ISCREAM","image":"52.png","properties":{"files":[{"uri":"52.png","type":"image/png"}],"category":"image","creators":[{"address":"13JRnpvnSXqjUMAn1RbJjurMVpJHcwZYfdTNaNM4Pegm","share":50},{"address":"5RqwmbpYdwdp5cx3J7CnAUmvgkj3mPAJjNPp3186N7xN","share":50}]},"description":"From deep within the walk-in freezer, long forgotten in dark, icy corners, lies a secret menu item waiting to be rediscovered.","seller_fee_basis_points":700,"attributes":[{"trait_type":"Topping","value":"Gummies.png"},{"trait_type":"Flavor","value":"Chocolate.png"},{"trait_type":"Cone","value":"Cookie.png"}],"collection":{"name":"Secret Ice Cream","family":"Mickey Degods"}}
+{
+    "name": "Secret Ice Cream #53",
+    "symbol": "ISCREAM",
+    "image": "52.png",
+    "properties": {
+        "files": [
+            {
+                "uri": "52.png",
+                "type": "image/png"
+            }
+        ],
+        "category": "image",
+        "creators": [
+            {
+                "address": "13JRnpvnSXqjUMAn1RbJjurMVpJHcwZYfdTNaNM4Pegm",
+                "share": 50
+            },
+            {
+                "address": "5RqwmbpYdwdp5cx3J7CnAUmvgkj3mPAJjNPp3186N7xN",
+                "share": 50
+            }
+        ]
+    },
+    "description": "From deep within the walk-in freezer, long forgotten in dark, icy corners, lies a secret menu item waiting to be rediscovered.",
+    "seller_fee_basis_points": 700,
+    "attributes": [
+        {
+            "trait_type": "Topping",
+            "value": "Gummies"
+        },
+        {
+            "trait_type": "Flavor",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "Cone",
+            "value": "Cookie"
+        }
+    ],
+    "collection": {
+        "name": "Secret Ice Cream",
+        "family": "Mickey Degods"
+    }
+}
