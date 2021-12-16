@@ -67,7 +67,7 @@ const App = () => {
           <div>
             <img src={MickeyLogo} />
           </div>
-          <p className="header">🍦  Mickey DeGods - Secret Dessert 🍦</p>
+          <p className="header">🍦  Mickey DeGods - The Freezer 🍦</p>
           <p className="sub-text">From deep within the walk-in freezer, <br></br>
           long forgotten in dark, icy corners,<br></br>
           lies a secret menu item waiting to be rediscovered.<br></br></p>

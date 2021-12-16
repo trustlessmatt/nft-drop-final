@@ -1,6 +1,9 @@
 .machine-container {
   display: flex;
   flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+  font-size: 24px;
+  text-shadow: 6px 6px 10px black;
 }
 
 .gif-container {
